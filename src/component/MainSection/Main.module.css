@@ -1,0 +1,11 @@
+.main{
+    width: 100%;
+    height: 900px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.mainSec{
+    width: 1140px;
+}
