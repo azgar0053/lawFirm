@@ -1,0 +1,54 @@
+.intro {
+    background-color: rgb(29, 29, 29);
+    width: 1140px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px 0px;
+}
+
+
+.introHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.introHeading > h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 88px;
+    margin: 5px 0px;
+
+}
+
+.verticalLine{
+    background-color: #6a6a6a;
+    height: 205px;
+    width: 1px;
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.introText > h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.introText > p{
+    color: #6a6a6a;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0px;
+}
