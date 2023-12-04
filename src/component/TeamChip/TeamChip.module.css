@@ -1,0 +1,53 @@
+.chipMainDiv{
+    width: 344px;
+    height: 109px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;   
+}
+.chipMainDiv:hover {
+    background-color: #E3B748;
+
+}
+
+
+
+.chipImg > img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin: 25px;
+}
+.chipNames {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chipNames > h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 8px 0px;
+    color: #fff;
+
+}
+
+.chipMainDiv:hover >.chipNames > h1 {
+    color: #373737;
+}
+
+.chipNames > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+    color: #ffffff30;
+
+}
+.chipMainDiv:hover > .chipNames > p {
+    color: #00000080;
+}
+
+

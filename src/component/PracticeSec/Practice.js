@@ -3,7 +3,7 @@ import styles from './Practice.module.css'
 
 const Practice=()=>{
     return(
-        <div className={styles.practiceDiv}>
+        <div className={styles.practiceDiv} id='practiceSec'>
             <h1>Area of Practices</h1>            
             <div className={styles.mosiacImages}>
                 <div className={styles.bigPic} id={styles.mosiac1}><h2>BUSINESS LAW</h2></div>

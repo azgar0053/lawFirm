@@ -3,7 +3,7 @@ import styles from './Intro.module.css'
 
 const Intro = () => {
     return (
-        <div className={styles.intro}>
+        <div className={styles.intro} id="attorneySec">
             <div className={styles.introHeading}>
                 <h1>Let's Introduce</h1>
                 <h1>Ourself</h1>

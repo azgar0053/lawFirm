@@ -9,9 +9,9 @@ const Header = () => {
                 <img src={logo} alt="logo" />
             </div>
             <div className={styles.menu}>
-                <h4 style={{padding:'10px', margin:'15px'}}><a>Home</a></h4>
-                <h4 style={{padding:'10px', margin:'15px'}}><a>Attorneys</a></h4>
-                <h4 style={{padding:'10px', margin:'15px'}}><a>Practice Areas</a></h4>
+                <h4 style={{padding:'10px', margin:'15px'}}><a href="#">Home</a></h4>
+                <h4 style={{padding:'10px', margin:'15px'}}><a href="#attorneySec">Attorneys</a></h4>
+                <h4 style={{padding:'10px', margin:'15px'}}><a href="#practiceSec">Practice Areas</a></h4>
                 <h4 style={{padding:'10px', margin:'15px'}}><a>About Us</a></h4>
             </div>
                 <button className={styles.contactButton}>Contact Now</button>
