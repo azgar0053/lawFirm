@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+
+/******* slider css ********/
+
 .swiper-slide {
   width: 359px !important;
 }
@@ -45,4 +48,42 @@ code {
 }
 .swiper {
   position: initial !important;
+}
+
+/********* accordion css ********/
+
+.css-yw020d-MuiAccordionSummary-expandIconWrapper > svg {
+  width: 28px !important;
+  height: 28px !important;
+  color:#E3B748;
+}
+
+.css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  display: none;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+  background-color: #1d1d1d !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+  color: #fff !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+}
+
+.css-pwcg7p-MuiCollapse-root {
+  color: #ffffff30 !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 29px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;  
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+  margin: 20px 0px !important;
 }
