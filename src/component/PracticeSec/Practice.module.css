@@ -1,0 +1,77 @@
+.bigPic{
+    width: 750px;
+    height: 342px;
+    border-radius: 14px;
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.bigPic > h2 {
+    padding: 20px;
+}
+
+
+
+.smallPic{
+    width: 350px;
+    height: 342px;
+    border-radius: 14px;
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.smallPic > h2 {
+    padding: 20px;
+}
+
+.mosiacImages {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.practiceDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+ 
+.practiceDiv > h1 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #fff;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+#mosiac1{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.6) 65%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: url(../../assets/mosiac1.png);
+
+}
+#mosiac2{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 83.33%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: url(../../assets/mosiac2.png);
+}
+#mosiac3{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 78.12%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: url(../../assets/mosiac3.png);
+}
+#mosiac4{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 75.52%, rgba(0, 0, 0, 0.7) 100%);
+    background-image: url(../../assets/mosiac4.png);
+}
+#mosiac5{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background-image: url(../../assets/mosiac5.png);
+}
+#mosiac6{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background-image: url(../../assets/mosiac6.png);
+}

@@ -1,0 +1,45 @@
+.logo {
+    width: 105px !important;
+    height: 105px !important;
+    border-radius: 50%;
+    margin: 18px;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0px !important;
+}
+
+.cardDiv {
+    width: 359px !important;
+    height: 368px !important;
+    border: 1.4px solid #ffffff10;
+    padding: 0px !important;
+}
+
+.clientName{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 10px 18px !important;
+}
+
+.cardDesignation{
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 18px !important;
+
+}
+
+.cardPara{
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 18px  !important;
+
+}
+

@@ -1,0 +1,18 @@
+.testimonialHeading > h1 {
+    color: #fff;
+    font-size: 54px !important;
+    font-weight: 600 !important;
+    margin: 20px !important ;
+    text-align: left;
+}
+
+.testimonialHeading {
+    margin-bottom: 50px;
+}
+
+.testimonialMain{
+    max-width: 1140px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
