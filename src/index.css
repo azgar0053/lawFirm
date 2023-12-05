@@ -87,3 +87,22 @@ code {
 .css-o4b71y-MuiAccordionSummary-content {
   margin: 20px 0px !important;
 }
+
+/* News Letter compoenent css */
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  border: none !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border: none !important;
+}
+
+.css-18mw8gn-MuiFormControl-root:nth-child(1){
+  border-radius: 8px 0px 0px 8px !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  border-radius: 0px, 8px, 8px, 0px !important;
+  background-color: #E3B748 !important;
+  color: #000 !important;
+}

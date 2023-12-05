@@ -1,0 +1,31 @@
+.mainDiv{
+    background: #47474780;
+    max-width: 1245px;
+    width: 1245px;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.mainDiv > h1 {
+    color: #fff;
+
+}
+
+.inputTags {
+    padding: 0px !important;
+    background-color: #E4E4E4;
+    color: #818181 !important;
+}
+
+#input1{
+    border-radius: 8px, 0px, 0px, 8px !important;
+}
+
+#btnSend {
+    border-radius: 0px, 8px, 8px, 0px !important;
+}

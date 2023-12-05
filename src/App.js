@@ -6,6 +6,7 @@ import Practice from './component/PracticeSec/Practice';
 import Testimonial from './component/Testimonial/Testimonial';
 import OurTeam from './component/OurTeam/OurTeam';
 import Faq from './component/Faq/Faq'
+import NewsLetter from './component/NewsLetter/NewsLetter';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Testimonial/>
       <OurTeam/>
       <Faq/>
+      <NewsLetter/>
     </div>
   );
 }
