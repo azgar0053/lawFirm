@@ -5,7 +5,7 @@ import Chip from "../TeamChip/TeamChip";
 
 const OurTeam=()=>{
     return(
-        <div className={styles.ourTeamComp}>
+        <div className={styles.ourTeamComp} id="ourTeam">
             <h1 style={{color:'#fff'}}>Our Team</h1>
             <div className={styles.chipDiv}>
             <div><Chip teamName='Danial Def' cases='301' teamImg='https://play-lh.googleusercontent.com/Hz5jiybLawpC0GSXNy7hWtCL1QVpj3Q79rqEWfsUFit7eRHgEYARFH07J5u3awoXagE'/></div>            

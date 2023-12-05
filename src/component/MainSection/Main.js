@@ -5,7 +5,7 @@ import styles from './Main.module.css'
 
 const Main=()=>{
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id="home">
             <div className={styles.mainSec}>
             <Header/>
             <Hero/>

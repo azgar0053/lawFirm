@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    width: 1440px;
+    background-color: #171717;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu >h4 {
+    cursor: pointer;
+    padding: 0px 20px !important;
+}
+
+.menu >h4 >a, .menu >h4 >a:active, .menu >h4 >a:hover, .menu >h4 >a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialMediaLogos{
+    color: #fdd65b;
+}
+
+.footerPolicySec{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.footerPolicySec > p {
+    padding: 0px 20px;
+    font-family: Helvetica Now Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
