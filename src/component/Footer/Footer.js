@@ -11,7 +11,7 @@ import { Box } from "@mui/material";
 
 const Footer=()=>{
     return(
-        <Box style={{display:'flex', flexDirection:'column', width:'1440px', backgroundColor:'#171717', height:'367px', justifyContent:'space-around'}}>
+        <Box style={{display:'flex', flexDirection:'column', width:'100vw', backgroundColor:'#171717', height:'367px', justifyContent:'space-around'}}>
         <div className={styles.footer}>
             <div style={{padding:'10px 10px 10px 0px', margin:'15px 15px 15px 0px'}}>
                 <img src={logo} alt="logo" />

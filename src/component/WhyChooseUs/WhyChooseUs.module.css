@@ -4,6 +4,7 @@
 
 .whychooseCardsDiv {
     max-width: 1140px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

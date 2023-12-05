@@ -1,7 +1,7 @@
 .mainDiv{
     background: #47474780;
     max-width: 1245px;
-    width: 1245px;
+    width: 100vw;
     height: 356px;
     display: flex;
     flex-direction: column;

@@ -12,6 +12,7 @@
 
 .testimonialMain{
     max-width: 1140px;
+    width: 100vw;
     position: relative;
     margin-top: 100px;
     margin-bottom: 20px;

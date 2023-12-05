@@ -1,6 +1,7 @@
 .intro {
     background-color: rgb(29, 29, 29);
-    width: 1140px;
+    max-width: 1140px;
+    width: 100vw;
     color: #fff;
     display: flex;
     justify-content: space-between;
