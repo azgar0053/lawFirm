@@ -11,16 +11,17 @@ import styles from './Accordion.module.css'
 export default function AccordionComp({question, answer, num}) {
   return (
     <div className={styles.accordionDiv}> 
-      <Accordion>
+      <Accordion style={{margin:'20px 0px'}}>
         <AccordionSummary
-          expandIcon={<AiFillPlusCircle />}
+          expandIcon={<AiFillPlusCircle style={{color:'#E3B748',width: '28px', height: '28px'}} />}
           aria-controls={`'panel'${num}'-a-content'`}
           id={`'panel'${num}'-a-content'`}
+          style={{backgroundColor: '#1d1d1d', color:'#fff', fontSize:'24px', fontWeight:'600', lineHeight:'24px', letterSpacing:'0em', textAlign:'left'}}
         >
           <Typography>{question}</Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
+        <AccordionDetails style={{color: '#ffffff30',backgroundColor:'#1d1d1d', fontSize:'18px', fontWeight:'500', lineHeight:'29px', letterSpacing:'0em', textAlign:'left'}}>
+          <Typography style={{color: '#ffffff30'}}>
             {answer}
           </Typography>
         </AccordionDetails>

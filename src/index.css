@@ -52,52 +52,57 @@ code {
 
 /********* accordion css ********/
 
-.css-yw020d-MuiAccordionSummary-expandIconWrapper > svg {
+/* .css-yw020d-MuiAccordionSummary-expandIconWrapper > svg {
   width: 28px !important;
   height: 28px !important;
   color:#E3B748;
-}
+} */
 
 .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
   display: none;
 }
-
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
-  background-color: #1d1d1d !important;
+.css-1fx8m19.Mui-expanded{
+  display: none;
 }
 
-.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+/* .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+  background-color: #1d1d1d !important;
+} */
+
+/* .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
   color: #fff !important;
   font-size: 24px !important;
   font-weight: 600 !important;
   line-height: 24px !important;
   letter-spacing: 0em !important;
   text-align: left !important;
-}
+} */
 
-.css-pwcg7p-MuiCollapse-root {
+
+/* .css-pwcg7p-MuiCollapse-root {
   color: #ffffff30 !important;
   font-size: 18px !important;
   font-weight: 500 !important;
   line-height: 29px !important;
   letter-spacing: 0em !important;
   text-align: left !important;  
-}
+} */
 
-.css-o4b71y-MuiAccordionSummary-content {
+
+/* .css-o4b71y-MuiAccordionSummary-content {
   margin: 20px 0px !important;
-}
+} */
 
 /* News Letter compoenent css */
 
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
   border: none !important;
 }
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
   border: none !important;
-}
+} */
 
-.css-18mw8gn-MuiFormControl-root:nth-child(1){
+/* .css-18mw8gn-MuiFormControl-root:nth-child(1){
   border-radius: 8px 0px 0px 8px !important;
 }
 
@@ -105,4 +110,4 @@ code {
   border-radius: 0px, 8px, 8px, 0px !important;
   background-color: #E3B748 !important;
   color: #000 !important;
-}
+} */
